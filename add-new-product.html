@@ -174,7 +174,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Product</h1>
+                        <h1 class="mt-4">Add New Product</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard/Product</li>
                         </ol>
@@ -185,76 +185,74 @@
                         
                          
                         <div class="card mb-4">
-                            <!--div class="card-header"><i class="fas fa-table mr-1"></i>DataTable Example</div-->
-                            <div class="card-header"><a href="add-new-product.html"><button class="btn-anp"><i class="fas fa-plus-circle"></i> Add New Product</button></a></div>
+                            <div class="card-header"><i class="fas fa-table mr-1"></i>DataTable Example</div>
+                            <!--div class="card-header"><button class="btn-anp"><i class="fas fa-plus-circle"></i> Add New Product</button></div-->
                             <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="table3" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <th>Sr.No.</th>
-                                                <th>Product ID</th>
-                                                <th>Product Name</th>
-                                                <th>Created By</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Sr.No.</th>
-                                                <th>Product ID</th>
-                                                <th>Product Name</th>
-                                                <th>Created By</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>0001</td>
-                                                <td>AA001FGHE21378	</td>
-                                                <td>Swab</td>
-                                                <td>Approved</td>
-                                                <td><i class="far fa-copy edit-icon"></i><i class="far fa-edit edit-icon"></i><i class="far fa-envelope"></i><i class="far fa-file-pdf edit-icon"></i><i class="far fa-file-excel edit-icon"></i><i class="far fa-trash-alt edit-icon"></i>
-                                                </td>
-                                                
-                                            </tr>
-                                             <tr>
-                                                <td>0001</td>
-                                                <td>AA001FGHE21378	</td>
-                                                <td>Swab</td>
-                                                <td>Approved</td><td><i class="far fa-copy edit-icon"></i><i class="far fa-edit edit-icon"></i><i class="far fa-envelope"></i><i class="far fa-file-pdf edit-icon"></i><i class="far fa-file-excel edit-icon"></i><i class="far fa-trash-alt edit-icon"></i>
-                                                </td>
-                                                
-                                            </tr>
-                                             <tr>
-                                                <td>0001</td>
-                                                <td>AA001FGHE21378	</td>
-                                                <td>Swab</td>
-                                                <td>Approved</td><td><i class="far fa-copy edit-icon"></i><i class="far fa-edit edit-icon"></i><i class="far fa-envelope"></i><i class="far fa-file-pdf edit-icon"></i><i class="far fa-file-excel edit-icon"></i><i class="far fa-trash-alt edit-icon"></i>
-                                                </td>
-                                                
-                                            </tr>
-                                             <tr>
-                                                <td>0001</td>
-                                                <td>AA001FGHE21378	</td>
-                                                <td>Swab</td>
-                                                <td>Approved</td>
-                                                <td><i class="far fa-copy edit-icon"></i><i class="far fa-edit edit-icon"></i><i class="far fa-envelope"></i><i class="far fa-file-pdf edit-icon"></i><i class="far fa-file-excel edit-icon"></i><i class="far fa-trash-alt edit-icon"></i>
-                                                </td>
-                                                
-                                            </tr>
-                                             <tr>
-                                                <td>0001</td>
-                                                <td>AA001FGHE21378	</td>
-                                                <td>Swab</td>
-                                                <td>Approved</td>
-                                                <td><i class="far fa-copy edit-icon"></i><i class="far fa-edit edit-icon"></i><i class="far fa-envelope"></i><i class="far fa-file-pdf edit-icon"></i><i class="far fa-file-excel edit-icon"></i><i class="far fa-trash-alt edit-icon"></i>
-                                                </td>
-                                                
-                                            </tr>
-                                           
-                                        </tbody>
-                                    </table>
+                              <div class="container-addnew-p">
+                                  <form action="#">
+                                    <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="PID">Product ID</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="fname" name="firstname" placeholder="">
+                                      </div>
+                                    </div>
+                                    <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="Product-name">Product Name</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="lname" name="lastname" placeholder="">
+                                      </div>
+                                    </div>
+                                    <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="country">Product Type</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <select id="Producy-Type" name="Product">
+                                          <option value="australia">Bioplastic</option>
+                                          <option value="canada">food item</option>
+                                          <option value="usa">abc</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                   <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="Porduct-sub-type">Product Sub Type</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="P-sub-type" name="lastname" placeholder="">
+                                      </div>
+                                    </div>
+                                      <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="Product-unit">Product Unit</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="Product-unit" name="lastname" placeholder="">
+                                      </div>
+                                    </div>
+                                      <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="Product-color">Product Color</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="product-color" name="lastname" placeholder="">
+                                      </div>
+                                    </div>
+                                      <div class="row-add-p">
+                                      <div class="col-25 add-p25">
+                                        <label for="Product-s-image">Product sample Image</label>
+                                      </div>
+                                      <div class="col-75 add-p75">
+                                        <input type="text" id="product-sample-image" name="lastname" placeholder="">
+                                      </div>
+                                    </div>
+                                        <a href="#" class="btn-add-p-create" onclick="alert('Hello world!')">Create</a>
+                                        <a href="#" class="btn-add-p-update" onclick="alert('Hello world!')">Update</a>
+                                  </form>
                                 </div>
                             </div>
                         </div>
