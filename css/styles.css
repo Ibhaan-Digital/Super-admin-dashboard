@@ -10214,12 +10214,40 @@ body {
 }
 
 
-.edit-icon{
-    margin: 0 15px;
-    font-size: 15px;
+
+/*********************************side bar icon start*************************/
+
+.sb-nav-link-icon img{
+    width: 30px;
+    height: 30px;
 }
-.btn-anp{
+
+/*********************************side bar icon end*************************/
+
+.top-nav-bar img{
+    width: 25px;
+    height: 25px;
+}
+
+.edit-icons-images img{
+    margin: 0 7px;
+    width: 25px;
+    height:25px; 
+}
+.btn-anp.btn-anp{
   background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-anp:hover{
+    background-color: DodgerBlue;
+}
+
+.btn-product-t{
+  background-color: orange;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -10298,6 +10326,157 @@ input[type=submit]:hover {
 
 
 .btn-add-p-create {
+  margin-top:3%;    
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-add-p-create:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #00a705;
+}
+
+.product-bt-cntr{
+    text-align: center;
+}
+.btn-add-p-update{
+  margin-top:3%; 
+  background-color: #f4b849;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-add-p-update:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #ffa600;
+}
+
+/***************button for qr code send request**************/
+.btn-send-r{
+  margin-top:3%;    
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-send-r:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #00a705;
+}
+.product-bt-right {
+    text-align: center;
+}
+.btn-add-p-cancel{
+  background-color: #ff6464;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-add-p-cancel:hover{
+    color: #fff;
+    background-color: #ff3a3a;
+    text-decoration: none;
+}
+
+
+
+/***************breadcrumb styles start*********************/
+
+.brdcmb a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.brdcmb a:hover{
+    color: #000000;
+}
+
+/***************breadcrumb styles end*********************/
+
+/***************conf msg styles start*********************/
+
+.conf-msg-hide{
+    display: none;
+}
+
+.conf-msg-unhide{
+    display: block;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+/***************conf msg styles end*********************/
+
+/***************update msg styles start*********************/
+
+.upd-msg-hide{
+    display: none;
+}
+
+.upd-msg-unhide{
+    display: block;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+/***************update msg styles end*********************/
+
+
+/***************QR CODE START*********************/
+
+.btn-request-qr{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-request-qr:hover{
+     color: #fff;
+    text-decoration: none;
+    background-color: #00a705;
+}
+/***************QR CODE END*********************/
+
+
+/***************QR CODE generate button START*********************/
+
+.btn-gene-qr-code {
+    text-align: center;
+}
+.btn-generate {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -10309,12 +10488,12 @@ input[type=submit]:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-.btn-add-p-create:hover{
-    color: #fff;
+.btn-generate:hover{
     text-decoration: none;
+    color: #fff;
 }
-.btn-add-p-update{
-  background-color: orange;
+.btn-dlt-req{
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -10325,8 +10504,292 @@ input[type=submit]:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-.btn-add-p-update:hover{
+.btn-dlt-req:hover{
+    text-decoration: none;
     color: #fff;
+}
+.gene-cncl {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.gene-cncl:hover{
+    text-decoration: none;
+    color: #fff;
+}
+/***************QR CODE generate button END**********************/
+
+
+/******************Conssumables page start**********************/
+
+.dropbtn {
+  background-color: #ff3a3a;
+    border-radius: 10px;
+  color: white;
+  padding: 16px 25px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-consumables {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-consumables:hover .dropdown-content {display: block;}
+
+.dropdown-consumables:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.count-counsumable{
+  
+    display: inline-block;
+}
+
+.btn-consumable{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.consumable-margin{
+    margin-right: 20px;
+}
+
+.btn-con-reqid {
+  background-color: #ff3a3a;
+  border: 1px solid grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-con-reqid:hover{
+    color: #fff;
+    background-color: #ff3a3a;
     text-decoration: none;
 }
+
+
+.button-consu {
+  background-color: #4CAF50; /* Green */
+    text-align: center;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-send-req:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-cncl-r:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#c-r{
+    text-align: center;
+}
+
+.btn-r-id {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+.btn-r-id:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/******************Conssumables page End**********************/
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+
+/*****************************User-managemnet start*********************/
+
+.view-btn {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.view-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/******************Rename manish start**********************/
+
+/******************user profile page start**********************/
+.usercolor{
+    color: #495057;
+}
+
+.usercolor:hover{
+    color: #23272a;
+}
+
+/******************user profile page end**********************/
+
+/******************Rename **********************/
+.view-center {
+    text-align: center;
+}
+
+
 
