@@ -18,8 +18,7 @@
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">SCANTRACK</a><button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button
-            ><!-- Navbar Search-->
+            <a class="navbar-brand" href="index.html">SCANTRACK</a><button class="btn btn-link btn-sm order-1 order-lg-0 top-nav-bar" id="sidebarToggle" href="#"><img src="images/img/menu.png"></button><!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
                 <div class="input-group">
                     <!--input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" /-->
@@ -33,7 +32,7 @@
             <!-- Navbar-->
             <ul class="navbar-nav ml-auto ml-md-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell"></i>&nbsp;<span class="hideRes">Notification</span></a>
+                    <a class="nav-link dropdown-toggle top-nav-bar" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/img/notification.png">&nbsp;<span class="hideRes">Notification</span></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         <a class="dropdown-item" href="#"><i class="fas fa-bell"></i>&nbsp;&nbsp;&nbsp;ABC</a>
                         <!--a class="dropdown-item" href="#">Activity Log</a-->
@@ -44,7 +43,7 @@
             </ul>
             <ul class="navbar-nav ml-auto ml-md-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i>&nbsp;<span class="hideRes">Humayu</span></a>
+                    <a class="nav-link dropdown-toggle top-nav-bar" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/img/user.png">&nbsp;<span class="hideRes">Humayu</span></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         <!--a class="dropdown-item" href="#"><i class="fas fa-bell"></i>&nbsp;&nbsp;&nbsp;Notification</a-->
                         <!--a class="dropdown-item" href="#">Activity Log</a-->
@@ -114,51 +113,56 @@
                                 </nav>
                             </div>
                             <!--div class="sb-sidenav-menu-heading">Addons</div-->
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="index.html">
                                 <div class="sb-nav-link-icon">
-                                    <i class="fas fa-tachometer-alt"></i>
+                                    <img src="images/img/dashboard.png">
                                 </div>
                                 Dashboard
                             </a>
                             <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon">
-                                    <i class="fas fa-users"></i>
+                                    <img src="images/img/client1.png">
                                 </div>
                                 Clients
                             </a>
                             <a class="nav-link" href="product.html">
                                 <div class="sb-nav-link-icon">
-                                    <i class="fab fa-product-hunt"></i>
+                                    <img src="images/img/product.png">
                                 </div>
                                 Products
                             </a>
-                            <a class="nav-link" href="#">
-                                <div class="sb-nav-link-icon">
-                                    <i class="fas fa-mouse"></i>
-                                </div>
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><img src="images/img/request.png"></div>
                                 Request
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="qrcode.html">QR Code</a>
+                                    <a class="nav-link" href="consumable.html">Consumables</a>
+                                </nav>
+                            </div>
                             <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon">
-                                    <i class="fas fa-tasks"></i>
+                                    <img src="images/img/invoice.png">
                                 </div>
                                 Invoice
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="user-management.html">
                                 <div class="sb-nav-link-icon">
-                                    <i class="fas fa-user"></i>
+                                    <img src="images/img/usermanagement.png">
                                 </div>
                                 User Management
                             </a>
                             <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon">
-                                   <i class="fas fa-tasks"></i>
+                                   <img src="images/img/notification.png">
                                 </div>
                                 Notification
                             </a>
                              <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon">
-                                   <i class="fas fa-lock"></i>
+                                   <img src="images/img/logout.png">
                                 </div>
                                 LogOut
                             </a>
@@ -1602,7 +1606,7 @@
               "aaSorting": [],
               columnDefs: [{
               orderable: false,
-              targets: 3
+              targets: 5
               }]
             });
            //end
